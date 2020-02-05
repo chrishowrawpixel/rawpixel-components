@@ -4,7 +4,7 @@
   "description": "RawPixel React component library",
   "author": "chrishowrawpixel",
   "license": "MIT",
-  "repository": "chrishowrawpixel/rawpixel-components",
+  "repository": "git://github.com/chrishowrawpixel/rawpixel-components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
