@@ -1,11 +1,11 @@
 {
   "name": "@chrishowrawpixel/rawpixel-components",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "RawPixel React component library",
   "author": "chrishowrawpixel",
   "license": "MIT",
   "repository": "git://github.com/chrishowrawpixel/rawpixel-components",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "dist"
   },
