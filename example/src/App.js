@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import RedBox from 'rawpixel-components/RedBox'
+import RedBox from 'rawpixel-components/dist/RedBox'
 
 export default class App extends Component {
   render () {
