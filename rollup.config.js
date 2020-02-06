@@ -6,22 +6,13 @@ import resolve from 'rollup-plugin-node-resolve'
 import url from 'rollup-plugin-url'
 import svgr from '@svgr/rollup'
 
-import pkg from './package.json'
-
 export default {
-  input: 'src/index.js',
-  output: [
-    {
-      file: pkg.main,
-      format: 'cjs',
-      sourcemap: true
-    },
-    {
-      file: pkg.module,
-      format: 'es',
-      sourcemap: true
-    }
-  ],
+  input: ['src/index.js', 'src/BlueBox.js', 'src/RedBox.js'],
+  output: {
+    dir: './',
+    format: 'cjs',
+    sourcemap: true
+  },
   plugins: [
     external(),
     postcss({

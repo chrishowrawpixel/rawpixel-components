@@ -20,3 +20,10 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ignore generated files in root
+*.js
+*.js.map
+
+# keep src js
+!src/*.js
