@@ -9,7 +9,7 @@ import svgr from '@svgr/rollup'
 export default {
   input: ['src/index.js', 'src/BlueBox.js', 'src/RedBox.js'],
   output: {
-    dir: './',
+    dir: 'dist',
     format: 'cjs',
     sourcemap: true
   },
